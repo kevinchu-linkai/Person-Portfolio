@@ -7,9 +7,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(14, 98%, 50%);
-  --black-color: hsl(0, 0%, 0%);
-  --black-color-light: hsl(0, 0%, 40%);
+  --first-color: hsl(21, 77%, 49%);
+  --black-color: hsl(0, 1%, 14%);
+  --black-color-light: hsl(0, 3%, 39%);
   --white-color: hsl(0, 0%, 95%);
   --title-color: hsl(0, 0%, 0%);
   --text-color: hsl(0, 0%, 35%);
@@ -133,7 +133,7 @@ body.dark-theme {
 }
 
 .dark-theme .home__description b {
-  background: linear-gradient(90deg, hsla(14, 80%, 50%, .3), hsla(14, 80%, 50%, 0));
+  background: linear-gradient(90deg, hsla(14, 79%, 47%, 0.3), hsla(14, 81%, 55%, 0));
 }
 
 .dark-theme :is(.button__ghost, .services__icon i) {
